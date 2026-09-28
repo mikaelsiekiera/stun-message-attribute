@@ -1,0 +1,16 @@
+export {
+  MAGIC_COOKIE,
+  ATTRIBUTE_TYPES,
+  isXorAttribute,
+  xorBytes,
+  writeAttributeHeader,
+  readAttributeHeader,
+  parseXorMappedAddress,
+  serializeXorMappedAddress,
+  parseMappedAddress,
+  serializeMappedAddress,
+  parseAttribute,
+  serializeAttribute,
+  parseAttributes,
+  serializeAttributes,
+} from './core.js';
